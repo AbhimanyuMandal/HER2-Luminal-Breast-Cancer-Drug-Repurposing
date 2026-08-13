@@ -1,0 +1,4 @@
+"gene","celltype","group1","group2","comparison","logFC","logCPM","F","PValue","FDR","direction","immune_flag","luminal_flag","epithelial_flag","rank"
+"TCN1","Luminal_Epithelial","HER2_Positive","Normal","HER2_Positive vs Normal",-7.65014652733152,5.69258446369377,73.2257353063947,1.45914819495091e-06,0.00459794992152523,"DOWN",FALSE,FALSE,FALSE,23
+"LAMB3","Luminal_Epithelial","HER2_Positive","Normal","HER2_Positive vs Normal",-7.18556775047,6.74604821469835,77.2811193970956,1.31413697305692e-06,0.00459794992152523,"DOWN",FALSE,FALSE,FALSE,33
+"FKBP1B","Luminal_Epithelial","HER2_Positive","Normal","HER2_Positive vs Normal",-6.99843634375255,3.12993569565605,59.836125983635,3.14265311921896e-06,0.00487599794782404,"DOWN",FALSE,FALSE,FALSE,34
