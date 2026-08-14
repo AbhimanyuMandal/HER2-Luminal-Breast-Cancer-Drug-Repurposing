@@ -1,0 +1,208 @@
+"Var1","Var2","Freq"
+"B-cells","ACKR1_Endothelial",3
+"CAFs","ACKR1_Endothelial",1
+"Cancer Epithelial","ACKR1_Endothelial",1
+"Endothelial","ACKR1_Endothelial",3903
+"Myeloid","ACKR1_Endothelial",14
+"Normal Epithelial","ACKR1_Endothelial",0
+"Plasmablasts","ACKR1_Endothelial",3
+"PVL","ACKR1_Endothelial",0
+"T-cells","ACKR1_Endothelial",11
+"B-cells","Activated_Cytotoxic_T",5
+"CAFs","Activated_Cytotoxic_T",9
+"Cancer Epithelial","Activated_Cytotoxic_T",20
+"Endothelial","Activated_Cytotoxic_T",1
+"Myeloid","Activated_Cytotoxic_T",12
+"Normal Epithelial","Activated_Cytotoxic_T",0
+"Plasmablasts","Activated_Cytotoxic_T",3
+"PVL","Activated_Cytotoxic_T",2
+"T-cells","Activated_Cytotoxic_T",5960
+"B-cells","B_cell",2917
+"CAFs","B_cell",0
+"Cancer Epithelial","B_cell",2
+"Endothelial","B_cell",2
+"Myeloid","B_cell",17
+"Normal Epithelial","B_cell",0
+"Plasmablasts","B_cell",12
+"PVL","B_cell",0
+"T-cells","B_cell",64
+"B-cells","Basal_Epithelial",0
+"CAFs","Basal_Epithelial",0
+"Cancer Epithelial","Basal_Epithelial",30
+"Endothelial","Basal_Epithelial",0
+"Myeloid","Basal_Epithelial",0
+"Normal Epithelial","Basal_Epithelial",1059
+"Plasmablasts","Basal_Epithelial",3
+"PVL","Basal_Epithelial",2
+"T-cells","Basal_Epithelial",4
+"B-cells","Basal_Epithelial_Unresolved",0
+"CAFs","Basal_Epithelial_Unresolved",2
+"Cancer Epithelial","Basal_Epithelial_Unresolved",2859
+"Endothelial","Basal_Epithelial_Unresolved",0
+"Myeloid","Basal_Epithelial_Unresolved",0
+"Normal Epithelial","Basal_Epithelial_Unresolved",1741
+"Plasmablasts","Basal_Epithelial_Unresolved",0
+"PVL","Basal_Epithelial_Unresolved",0
+"T-cells","Basal_Epithelial_Unresolved",4
+"B-cells","CD4_T",16
+"CAFs","CD4_T",1
+"Cancer Epithelial","CD4_T",67
+"Endothelial","CD4_T",1
+"Myeloid","CD4_T",4
+"Normal Epithelial","CD4_T",0
+"Plasmablasts","CD4_T",12
+"PVL","CD4_T",0
+"T-cells","CD4_T",9337
+"B-cells","Cycling_Epithelial_LowConfidence",0
+"CAFs","Cycling_Epithelial_LowConfidence",0
+"Cancer Epithelial","Cycling_Epithelial_LowConfidence",34
+"Endothelial","Cycling_Epithelial_LowConfidence",0
+"Myeloid","Cycling_Epithelial_LowConfidence",0
+"Normal Epithelial","Cycling_Epithelial_LowConfidence",0
+"Plasmablasts","Cycling_Epithelial_LowConfidence",0
+"PVL","Cycling_Epithelial_LowConfidence",0
+"T-cells","Cycling_Epithelial_LowConfidence",0
+"B-cells","Cycling_Lineage_Unresolved",2
+"CAFs","Cycling_Lineage_Unresolved",1
+"Cancer Epithelial","Cycling_Lineage_Unresolved",2404
+"Endothelial","Cycling_Lineage_Unresolved",18
+"Myeloid","Cycling_Lineage_Unresolved",27
+"Normal Epithelial","Cycling_Lineage_Unresolved",0
+"Plasmablasts","Cycling_Lineage_Unresolved",30
+"PVL","Cycling_Lineage_Unresolved",0
+"T-cells","Cycling_Lineage_Unresolved",1249
+"B-cells","Cycling_Myeloid_Unresolved",2
+"CAFs","Cycling_Myeloid_Unresolved",0
+"Cancer Epithelial","Cycling_Myeloid_Unresolved",0
+"Endothelial","Cycling_Myeloid_Unresolved",0
+"Myeloid","Cycling_Myeloid_Unresolved",356
+"Normal Epithelial","Cycling_Myeloid_Unresolved",0
+"Plasmablasts","Cycling_Myeloid_Unresolved",0
+"PVL","Cycling_Myeloid_Unresolved",0
+"T-cells","Cycling_Myeloid_Unresolved",1
+"B-cells","FCN1_Inflammatory_Myeloid",22
+"CAFs","FCN1_Inflammatory_Myeloid",0
+"Cancer Epithelial","FCN1_Inflammatory_Myeloid",3
+"Endothelial","FCN1_Inflammatory_Myeloid",1
+"Myeloid","FCN1_Inflammatory_Myeloid",2764
+"Normal Epithelial","FCN1_Inflammatory_Myeloid",0
+"Plasmablasts","FCN1_Inflammatory_Myeloid",1
+"PVL","FCN1_Inflammatory_Myeloid",0
+"T-cells","FCN1_Inflammatory_Myeloid",6
+"B-cells","Fibroblast_like_CAF",0
+"CAFs","Fibroblast_like_CAF",3136
+"Cancer Epithelial","Fibroblast_like_CAF",18
+"Endothelial","Fibroblast_like_CAF",1
+"Myeloid","Fibroblast_like_CAF",2
+"Normal Epithelial","Fibroblast_like_CAF",0
+"Plasmablasts","Fibroblast_like_CAF",1
+"PVL","Fibroblast_like_CAF",21
+"T-cells","Fibroblast_like_CAF",6
+"B-cells","FOLR2_Resident_Macrophage",18
+"CAFs","FOLR2_Resident_Macrophage",8
+"Cancer Epithelial","FOLR2_Resident_Macrophage",8
+"Endothelial","FOLR2_Resident_Macrophage",16
+"Myeloid","FOLR2_Resident_Macrophage",5612
+"Normal Epithelial","FOLR2_Resident_Macrophage",0
+"Plasmablasts","FOLR2_Resident_Macrophage",1
+"PVL","FOLR2_Resident_Macrophage",4
+"T-cells","FOLR2_Resident_Macrophage",16
+"B-cells","LRRC15_Matrix_CAF",0
+"CAFs","LRRC15_Matrix_CAF",2700
+"Cancer Epithelial","LRRC15_Matrix_CAF",229
+"Endothelial","LRRC15_Matrix_CAF",1
+"Myeloid","LRRC15_Matrix_CAF",0
+"Normal Epithelial","LRRC15_Matrix_CAF",0
+"Plasmablasts","LRRC15_Matrix_CAF",0
+"PVL","LRRC15_Matrix_CAF",5
+"T-cells","LRRC15_Matrix_CAF",0
+"B-cells","Luminal_Epithelial",7
+"CAFs","Luminal_Epithelial",2
+"Cancer Epithelial","Luminal_Epithelial",4091
+"Endothelial","Luminal_Epithelial",0
+"Myeloid","Luminal_Epithelial",3
+"Normal Epithelial","Luminal_Epithelial",61
+"Plasmablasts","Luminal_Epithelial",13
+"PVL","Luminal_Epithelial",3
+"T-cells","Luminal_Epithelial",204
+"B-cells","Luminal_ERplus_Cancer",0
+"CAFs","Luminal_ERplus_Cancer",0
+"Cancer Epithelial","Luminal_ERplus_Cancer",11105
+"Endothelial","Luminal_ERplus_Cancer",0
+"Myeloid","Luminal_ERplus_Cancer",0
+"Normal Epithelial","Luminal_ERplus_Cancer",1112
+"Plasmablasts","Luminal_ERplus_Cancer",1
+"PVL","Luminal_ERplus_Cancer",1
+"T-cells","Luminal_ERplus_Cancer",1
+"B-cells","Lymphatic_Endothelial",0
+"CAFs","Lymphatic_Endothelial",1
+"Cancer Epithelial","Lymphatic_Endothelial",1
+"Endothelial","Lymphatic_Endothelial",138
+"Myeloid","Lymphatic_Endothelial",0
+"Normal Epithelial","Lymphatic_Endothelial",0
+"Plasmablasts","Lymphatic_Endothelial",0
+"PVL","Lymphatic_Endothelial",0
+"T-cells","Lymphatic_Endothelial",0
+"B-cells","NK",1
+"CAFs","NK",0
+"Cancer Epithelial","NK",2
+"Endothelial","NK",0
+"Myeloid","NK",2
+"Normal Epithelial","NK",0
+"Plasmablasts","NK",3
+"PVL","NK",0
+"T-cells","NK",10577
+"B-cells","Plasmablast_Plasma",88
+"CAFs","Plasmablast_Plasma",0
+"Cancer Epithelial","Plasmablast_Plasma",4
+"Endothelial","Plasmablast_Plasma",0
+"Myeloid","Plasmablast_Plasma",3
+"Normal Epithelial","Plasmablast_Plasma",1
+"Plasmablasts","Plasmablast_Plasma",3157
+"PVL","Plasmablast_Plasma",0
+"T-cells","Plasmablast_Plasma",13
+"B-cells","Plasmacytoid_Dendritic_Cell",2
+"CAFs","Plasmacytoid_Dendritic_Cell",0
+"Cancer Epithelial","Plasmacytoid_Dendritic_Cell",0
+"Endothelial","Plasmacytoid_Dendritic_Cell",0
+"Myeloid","Plasmacytoid_Dendritic_Cell",316
+"Normal Epithelial","Plasmacytoid_Dendritic_Cell",0
+"Plasmablasts","Plasmacytoid_Dendritic_Cell",0
+"PVL","Plasmacytoid_Dendritic_Cell",0
+"T-cells","Plasmacytoid_Dendritic_Cell",0
+"B-cells","RGS5_Pericyte",0
+"CAFs","RGS5_Pericyte",338
+"Cancer Epithelial","RGS5_Pericyte",47
+"Endothelial","RGS5_Pericyte",15
+"Myeloid","RGS5_Pericyte",0
+"Normal Epithelial","RGS5_Pericyte",0
+"Plasmablasts","RGS5_Pericyte",0
+"PVL","RGS5_Pericyte",2049
+"T-cells","RGS5_Pericyte",0
+"B-cells","Smooth_Muscle_Perivascular",0
+"CAFs","Smooth_Muscle_Perivascular",22
+"Cancer Epithelial","Smooth_Muscle_Perivascular",22
+"Endothelial","Smooth_Muscle_Perivascular",1
+"Myeloid","Smooth_Muscle_Perivascular",0
+"Normal Epithelial","Smooth_Muscle_Perivascular",0
+"Plasmablasts","Smooth_Muscle_Perivascular",1
+"PVL","Smooth_Muscle_Perivascular",2841
+"T-cells","Smooth_Muscle_Perivascular",3
+"B-cells","Treg",4
+"CAFs","Treg",0
+"Cancer Epithelial","Treg",6
+"Endothelial","Treg",0
+"Myeloid","Treg",1
+"Normal Epithelial","Treg",0
+"Plasmablasts","Treg",2
+"PVL","Treg",0
+"T-cells","Treg",7056
+"B-cells","Vascular_Endothelial",0
+"CAFs","Vascular_Endothelial",0
+"Cancer Epithelial","Vascular_Endothelial",4
+"Endothelial","Vascular_Endothelial",3023
+"Myeloid","Vascular_Endothelial",5
+"Normal Epithelial","Vascular_Endothelial",0
+"Plasmablasts","Vascular_Endothelial",0
+"PVL","Vascular_Endothelial",14
+"T-cells","Vascular_Endothelial",0

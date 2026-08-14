@@ -1,0 +1,24 @@
+"cluster","celltype_subtype","annotation_confidence","original_major_annotation","original_annotation_percentage"
+"0","Luminal_ERplus_Cancer","High","Cancer Epithelial",90.8756137479542
+"1","NK","High","T-cells",99.9244213509683
+"2","CD4_T","High","T-cells",98.9298580207671
+"3","Treg","High","T-cells",99.8160984580563
+"4","Activated_Cytotoxic_T","High","T-cells",99.1350632069195
+"5","FOLR2_Resident_Macrophage","High","Myeloid",98.7506598627485
+"6","Basal_Epithelial","High","Cancer Epithelial",62.0712114633087
+"7","Luminal_Epithelial","High","Cancer Epithelial",93.316605839416
+"8","ACKR1_Endothelial","High","Endothelial",99.1615853658537
+"9","Cycling_Lineage_Unresolved","Low","Cancer Epithelial",64.433127847762
+"10","Plasmablast_Plasma","High","Plasmablasts",96.6625842008573
+"11","Fibroblast_like_CAF","High","CAFs",98.4615384615385
+"12","Vascular_Endothelial","High","Endothelial",99.2449113591596
+"13","B_cell","High","B-cells",96.7816854678169
+"14","LRRC15_Matrix_CAF","High","CAFs",91.9931856899489
+"15","Smooth_Muscle_Perivascular","High","PVL",98.3044982698962
+"16","FCN1_Inflammatory_Myeloid","High","Myeloid",98.8201644619235
+"17","RGS5_Pericyte","High","PVL",83.6668027766435
+"18","Basal_Epithelial","High","Normal Epithelial",96.448087431694
+"19","Cycling_Myeloid_Unresolved","Low","Myeloid",99.1643454038997
+"20","Plasmacytoid_Dendritic_Cell","High","Myeloid",99.3710691823899
+"21","Lymphatic_Endothelial","High","Endothelial",98.5714285714286
+"22","Cycling_Epithelial_LowConfidence","Low","Cancer Epithelial",100
