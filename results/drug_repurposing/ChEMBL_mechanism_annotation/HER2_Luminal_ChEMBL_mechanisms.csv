@@ -1,0 +1,91 @@
+chembl_id,target_chembl_id,mechanism_of_action,action_type,mechanism_status
+CHEMBL584838,NA,NA,NA,no_mechanism_record
+CHEMBL380413,NA,NA,NA,no_mechanism_record
+CHEMBL4303385,NA,NA,NA,no_mechanism_record
+CHEMBL477772,NA,NA,NA,no_mechanism_record
+CHEMBL5993064,NA,NA,NA,no_mechanism_record
+CHEMBL450786,NA,NA,NA,no_mechanism_record
+CHEMBL1230020,NA,NA,NA,no_mechanism_record
+CHEMBL460702,CHEMBL3717,Hepatocyte growth factor receptor inhibitor,INHIBITOR,annotated
+CHEMBL572881,CHEMBL1936,Stem cell growth factor receptor inhibitor,INHIBITOR,annotated
+CHEMBL572881,CHEMBL2041,Tyrosine-protein kinase receptor RET inhibitor,INHIBITOR,annotated
+CHEMBL572881,CHEMBL2095227,Vascular endothelial growth factor receptor inhibitor,INHIBITOR,annotated
+CHEMBL572881,CHEMBL2095189,Platelet-derived growth factor receptor inhibitor,INHIBITOR,annotated
+CHEMBL3640475,NA,NA,NA,no_mechanism_record
+CHEMBL1336,NA,NA,NA,no_mechanism_record
+CHEMBL4303658,NA,NA,NA,no_mechanism_record
+CHEMBL1614710,CHEMBL1936,Stem cell growth factor receptor inhibitor,INHIBITOR,annotated
+CHEMBL1614710,CHEMBL2095227,Vascular endothelial growth factor receptor inhibitor,INHIBITOR,annotated
+CHEMBL2103882,CHEMBL3717,Hepatocyte growth factor receptor inhibitor,INHIBITOR,annotated
+CHEMBL5303523,NA,NA,NA,no_mechanism_record
+CHEMBL412142,NA,NA,NA,no_mechanism_record
+CHEMBL14762,CHEMBL301,Cyclin-dependent kinase 2 inhibitor,INHIBITOR,annotated
+CHEMBL14762,CHEMBL3055,Cyclin-dependent kinase 7 inhibitor,INHIBITOR,annotated
+CHEMBL14762,CHEMBL3116,Cyclin-dependent kinase 9 inhibitor,INHIBITOR,annotated
+CHEMBL14762,CHEMBL308,Cyclin-dependent kinase 1 inhibitor,INHIBITOR,annotated
+CHEMBL14762,CHEMBL4036,Cyclin-dependent kinase 5 inhibitor,INHIBITOR,annotated
+CHEMBL189584,NA,NA,NA,no_mechanism_record
+CHEMBL4303308,NA,NA,NA,no_mechanism_record
+CHEMBL576982,CHEMBL1844,Macrophage colony stimulating factor receptor inhibitor,INHIBITOR,annotated
+CHEMBL576982,CHEMBL1974,Tyrosine-protein kinase receptor FLT3 inhibitor,INHIBITOR,annotated
+CHEMBL576982,CHEMBL1936,Stem cell growth factor receptor inhibitor,INHIBITOR,annotated
+CHEMBL576982,CHEMBL2095189,Platelet-derived growth factor receptor inhibitor,INHIBITOR,annotated
+CHEMBL576982,CHEMBL2041,Tyrosine-protein kinase receptor RET inhibitor,INHIBITOR,annotated
+CHEMBL1852688,CHEMBL2095217,Fibroblast growth factor receptor inhibitor,INHIBITOR,annotated
+CHEMBL4536936,NA,NA,NA,no_mechanism_record
+CHEMBL494089,CHEMBL2111353,Serine/threonine-protein kinase AKT inhibitor,INHIBITOR,annotated
+CHEMBL494089,CHEMBL2094138,cAMP-dependent protein kinase (PKA) inhibitor,INHIBITOR,annotated
+CHEMBL494089,CHEMBL2093867,Protein kinase C (PKC) inhibitor,INHIBITOR,annotated
+CHEMBL3360203,CHEMBL3559703,PI3-kinase class I inhibitor,INHIBITOR,annotated
+CHEMBL1908391,CHEMBL2742,Fibroblast growth factor receptor 3 inhibitor,INHIBITOR,annotated
+CHEMBL1908391,CHEMBL1936,Stem cell growth factor receptor inhibitor,INHIBITOR,annotated
+CHEMBL1908391,CHEMBL2095189,Platelet-derived growth factor receptor inhibitor,INHIBITOR,annotated
+CHEMBL601719,CHEMBL3717,Hepatocyte growth factor receptor inhibitor,INHIBITOR,annotated
+CHEMBL601719,CHEMBL4247,ALK tyrosine kinase receptor inhibitor,INHIBITOR,annotated
+CHEMBL601719,CHEMBL3883330,EML4-ALK inhibitor,INHIBITOR,annotated
+CHEMBL601719,CHEMBL2111387,NPM/ALK (Nucleophosmin/ALK tyrosine kinase receptor) inhibitor,INHIBITOR,annotated
+CHEMBL601719,CHEMBL5568,Proto-oncogene tyrosine-protein kinase ROS inhibitor,INHIBITOR,annotated
+CHEMBL601719,CHEMBL2689,Macrophage-stimulating protein receptor inhibitor,INHIBITOR,annotated
+CHEMBL2013119,NA,NA,NA,no_mechanism_record
+CHEMBL1091644,CHEMBL1957,Insulin-like growth factor I receptor inhibitor,INHIBITOR,annotated
+CHEMBL1091644,CHEMBL1981,Insulin receptor inhibitor,INHIBITOR,annotated
+CHEMBL223360,CHEMBL1844,Macrophage colony stimulating factor receptor inhibitor,INHIBITOR,annotated
+CHEMBL223360,CHEMBL1974,Tyrosine-protein kinase receptor FLT3 inhibitor,INHIBITOR,annotated
+CHEMBL223360,CHEMBL2095189,Platelet-derived growth factor receptor inhibitor,INHIBITOR,annotated
+CHEMBL223360,CHEMBL2095227,Vascular endothelial growth factor receptor inhibitor,INHIBITOR,annotated
+CHEMBL255863,NA,NA,NA,no_mechanism_record
+CHEMBL237830,NA,NA,NA,no_mechanism_record
+CHEMBL2170016,NA,NA,NA,no_mechanism_record
+CHEMBL1236107,CHEMBL3717,Hepatocyte growth factor receptor inhibitor,INHIBITOR,annotated
+CHEMBL1909414,NA,NA,NA,no_mechanism_record
+CHEMBL259551,NA,NA,NA,no_mechanism_record
+CHEMBL502835,NA,NA,NA,no_mechanism_record
+CHEMBL7064,NA,NA,NA,no_mechanism_record
+CHEMBL3663550,NA,NA,NA,no_mechanism_record
+CHEMBL2139930,NA,NA,NA,no_mechanism_record
+CHEMBL5303350,NA,NA,NA,no_mechanism_record
+CHEMBL1908394,CHEMBL3024,Serine/threonine-protein kinase PLK1 inhibitor,INHIBITOR,annotated
+CHEMBL1289494,CHEMBL2095227,Vascular endothelial growth factor receptor inhibitor,INHIBITOR,annotated
+CHEMBL941,NA,NA,NA,no_mechanism_record
+CHEMBL5723360,NA,NA,NA,no_mechanism_record
+CHEMBL102714,NA,NA,NA,no_mechanism_record
+CHEMBL97162,NA,NA,NA,no_mechanism_record
+CHEMBL4303229,NA,NA,NA,no_mechanism_record
+CHEMBL5303414,NA,NA,NA,no_mechanism_record
+CHEMBL1789941,NA,NA,NA,no_mechanism_record
+CHEMBL2133806,CHEMBL3717,Hepatocyte growth factor receptor inhibitor,INHIBITOR,annotated
+CHEMBL3991927,CHEMBL3024,Serine/threonine-protein kinase PLK1 inhibitor,INHIBITOR,annotated
+CHEMBL10,NA,NA,NA,no_mechanism_record
+CHEMBL2140173,NA,NA,NA,no_mechanism_record
+CHEMBL1873475,CHEMBL5251,Tyrosine-protein kinase BTK inhibitor,INHIBITOR,annotated
+CHEMBL4797365,NA,NA,NA,no_mechanism_record
+CHEMBL521686,CHEMBL3390820,"PARP 1, 2 and 3 inhibitor",INHIBITOR,annotated
+CHEMBL2204021,NA,NA,NA,no_mechanism_record
+CHEMBL2109635,CHEMBL3580494,Mucin-1 binding agent,BINDING AGENT,annotated
+CHEMBL2109635,CHEMBL2095182,Tubulin inhibitor,INHIBITOR,annotated
+CHEMBL300138,CHEMBL3045,Protein kinase C beta inhibitor,INHIBITOR,annotated
+CHEMBL4112840,NA,NA,NA,no_mechanism_record
+CHEMBL405759,NA,NA,NA,no_mechanism_record
+CHEMBL3663528,NA,NA,NA,no_mechanism_record
+CHEMBL939,CHEMBL203,Epidermal growth factor receptor erbB1 inhibitor,INHIBITOR,annotated
+CHEMBL249697,NA,NA,NA,no_mechanism_record
