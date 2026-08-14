@@ -318,8 +318,6 @@ Candidates were divided into three tiers:
 | Tier 2 | Strong reversal across >= 4/5 cell lines |
 | Tier 3 | Moderate reversal across >= 3/5 cell lines | 
 
----
-
 The final robust candidate set was then carried forward for compound annotation and evidence integration.
 
 ---
@@ -364,8 +362,6 @@ The mechanism-supported candidate set contained:
 | Cytoskeleton | 1 | 
 | DNA Damage Response | 1 |
 | Other/Unclassified | 8 |
-
-----
 
 The dominance of kinase-associated candidates provides a biologically interpretable pattern within the computationally prioritized compound set.
 
