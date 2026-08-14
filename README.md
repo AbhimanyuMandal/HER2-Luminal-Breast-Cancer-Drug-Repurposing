@@ -285,3 +285,116 @@ Conceptually:
 <p align="center">
   <img src="assets/connectivity_scoring.png" width="90%" alt="HER2 Luminal Breast Cancer Drug Repurposing Workflow">
 </p>
+
+Compounds producing reproducible positive reversal scores across relevant cell lines were prioritized for downstream analysis.
+
+---
+
+# Cross-Cell-Line Robustness
+
+A major component of the prioritization strategy was cross-cell-line reproducibility.
+
+Among the LINCS compounds:
+
+**167 compounds** had perturbational signatures represented across all five breast cancer cell lines.
+
+These compounds were evaluated based on:
+
+- Number of positive cell lines
+- Number of negative cell lines
+- Median connectivity score
+- Mean connectivity score
+- Minimum connectivity score
+- Reproducibility
+- Positive connectivity fraction
+
+**66 robust candidate compounds**
+
+Candidates were divided into three tiers:
+
+| Tier | Interpretation |
+|-----------|------------|
+| Tier 1 | Consistent reversal across 5/5 cell lines |
+| Tier 2 | Strong reversal across >= 4/5 cell lines |
+| Tier 3 | Moderate reversal across >= 3/5 cell lines | 
+
+---
+
+The final robust candidate set was then carried forward for compound annotation and evidence integration.
+
+---
+
+# ChEMBL Compound Annotation
+
+The 66 robust candidates were mapped to ChEMBL to obtain additional chemical and pharmacological information.
+
+The annotation workflow included:
+
+- Compound identity matching
+- ChEMBL identifier assignment
+- Preferred compound name
+- Clinical development phase where available
+- Mechanism-of-action records
+- Target identifiers
+- Action types
+
+The ChEMBL validation identified:
+
+- **66 candidate compounds**
+- **64 unique ChEMBL identifiers**
+- **30 high-confidence compound identities**
+- **36 identities requiring review**
+- **23 candidates with mechanism evidence**
+- **43 candidates without mechanism records**
+
+ChEMBL annotation was used as supporting evidence rather than as proof of therapeutic activity.
+
+---
+
+# Mechansim Interpretation
+
+Mechanism-supported candidates were grouped into broad mechanism categories.
+
+The mechanism-supported candidate set contained:
+
+| Mechanism Category | Candidates |
+|-----------|------------|
+| Kinase | 11 |
+| Angiogenesis | 2 |
+| Cytoskeleton | 1 | 
+| DNA Damage Response | 1 |
+| Other/Unclassified | 8 |
+
+----
+
+The dominance of kinase-associated candidates provides a biologically interpretable pattern within the computationally prioritized compound set.
+
+However, mechanism annotation does not establish that a compound will therapeutically reverse the disease phenotype in patients.
+
+---
+
+# External Literature Validation
+
+The top 20 computationally ranked candidates were subjected to an external literature screening step.
+
+The screening evaluated evidence related to:
+
+- Breast cancer
+- HER2-associated research
+- Oncology
+- Published evidence for the candidate compound
+
+Results:
+
+- **20 candidates evaluated**
+- **20 literature queries completed**
+- **19 candidates with breast cancer/HER2-related evidence**
+- **1 candidate with limited external evidence**
+
+External evidence was incorporated into the final portfolio-oriented interpretation.
+
+---
+
+
+
+
