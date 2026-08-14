@@ -8,7 +8,7 @@
 
 <p align="center">
 
-Single-cell RNA-seq driven disease characterization and LINCS-based computational drug repurposing
+Single-cell RNA-seq-driven disease characterization and LINCS-based computational drug repurposing
 
 A reproducible computational biology workflow integrating single-cell RNA sequencing, subtype characterization, differential expression, disease-signature construction, LINCS perturbational screening, cross-cell-line validation, ChEMBL mechanism annotation, and external literature validation to prioritize candidate compounds for HER2/luminal breast cancer.
 
@@ -31,7 +31,7 @@ A reproducible computational biology workflow integrating single-cell RNA sequen
 
 Breast cancer is a molecularly heterogeneous disease in which distinct transcriptional states and molecular subtypes can exhibit different biological characteristics and therapeutic vulnerabilities.
 
-This project develops an end-to-end computational framework for identifying potential drug-repurposing candidates associated with a HER2/luminal breast cancer transcriptional phenotype.
+This project develops an end-to-end computational framework to identify potential drug-repurposing candidates associated with the HER2/luminal breast cancer transcriptional phenotype.
 
 The workflow begins with single-cell RNA-seq data and progressively narrows the analysis from cellular characterization to a disease-specific transcriptional signature and finally to candidate drug prioritization.
 
@@ -203,7 +203,7 @@ Pseudobulk analysis aggregates single-cell expression within biologically meanin
 
 ---
 
-# Disease Signature Contruction
+# Disease Signature Construction
 
 The HER2/luminal disease state was used to construct a disease-associated transcriptional signature.
 
@@ -252,9 +252,9 @@ These genes provide biological context for the transcriptional state used in the
 
 ---
 
-# LINCS Pertubational Screening
+# LINCS Perturbational Screening
 
-The disease signature was mapped against LINCS perturbational expression data to identify compounds whose induced transcriptional states oppose the disease-associated transcriptional program.
+The disease signature was mapped to LINCS perturbational expression data to identify compounds that induce transcriptional states opposing the disease-associated transcriptional program.
 
 The analysis used:
 
@@ -274,4 +274,14 @@ SKBR3
 ```
 
 These LINCS signatures represented compound perturbations under the selected screening conditions.
+
 ---
+
+# Connectivity Scoring
+
+For each LINCS signature, a connectivity score was calculated to quantify the relationship between the disease transcriptional signature and the compound-induced transcriptional response.
+
+Conceptually:
+<p align="center">
+  <img src="assets/connectivity_scoring.png" width="90%" alt="HER2 Luminal Breast Cancer Drug Repurposing Workflow">
+</p>
