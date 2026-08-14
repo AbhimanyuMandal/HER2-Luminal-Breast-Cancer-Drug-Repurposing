@@ -553,15 +553,25 @@ HER2_Luminal_TOP30_FINAL_CANDIDATES.csv
 # Installation
 
 ## 1. Clone the repository
+
 ```bash
 git clone https://github.com/AbhimanyuMandal/HER2-Luminal-Breast-Cancer-Drug-Repurposing.git
 cd HER2-Luminal-Breast-Cancer-Drug-Repurposing
 ```
+
 ## 2. Install R
+
+The project was developed using R and commonly used Bioconductor/CRAN packages.
+
+Install R from:
+
 ```text
 https://cran.r-project.org/
 ```
+
 ## 3. Install Required Packages
+
+The major R packages used include:
 ```R
 install.packages(c(
   "Seurat",
@@ -573,3 +583,137 @@ install.packages(c(
   "httr2"
 ))
 ```
+
+Additional packages may be required depending on the specific analysis stage.
+
+---
+
+# Running the Pipeline
+
+The pipeline is organized into sequential R scripts.
+
+Scripts are numbered according to the analytical workflow.
+
+```text
+01–12   Breast cancer scRNA-seq processing
+13–23   Normal breast cohort processing
+24–25   Cohort harmonization and composition
+26      Pseudobulk differential expression
+27–29   Disease-signature construction and validation
+30–31   LINCS extraction and connectivity analysis
+32      ChEMBL compound/mechanism annotation
+33      Final candidate ranking
+34      Biological interpretation
+35      External candidate validation
+36      Final portfolio summary
+```
+
+To run an individual stage:
+
+```bash
+Rscript scripts/01_create_GSE176078_object.R
+```
+
+For example, the final portfolio summary can be generated using:
+
+```bash
+Rscript scripts/36_final_portfolio_summary.R
+```
+
+The scripts expect the repository's directory structure to remain unchanged.
+
+---
+
+# Repository Structure
+
+```text
+HER2-Luminal-Breast-Cancer-Drug-Repurposing/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+├── assets/
+│   ├── banner.png
+│   └── workflow.png
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── scripts/
+│   ├── 01_create_GSE176078_object.R
+│   ├── 02_qc_GSE176078.R
+│   ├── 03_apply_QC.R
+│   ├── 04_normalization_HVG_PCA.R
+│   ├── 05_inspect_PCA.R
+│   ├── 06_PCA_patient_subtype_diagnostics.R
+│   ├── 07_seurat_RPCA_integration.R
+│   ├── 08_umap_clustering.R
+│   ├── 09_cluster_markers_annotation
+│   ├── 10_validate_annotations.R
+│   ├── 11_final_annotation.R
+│   ├── 12_subtype_characterization.R
+│   │
+│   ├── 13_extract_GSE113196.R
+│   ├── 14_create_GSE113196_seurat.R
+│   ├── 15_GSE113196_QC_filtering.R
+│   ├── 16_GSE113196_normalization_PCA.R
+│   ├── 17_umap_clustering_normal.R
+│   ├── 18_rpca_integration_normal.R
+│   ├── 19_normal_breat_integrated_clustering.R
+│   ├── 20_normal_breast_markers.R
+│   ├── 21_normal_breast_marker_plots.R
+│   ├── 22_normal_breast_annotation.R
+│   ├── 23_normal_breast_annotation_validation.R
+│   │
+│   ├── 24_cohort_celltype_harmonization.R
+│   ├── 25_patient_level_celltype_composition.R
+│   ├── 26_pseudobulk_disease_subtype_DE.R
+│   │
+│   ├── 27_HER2_luminal_disease_signature_qc.R
+│   ├── 28_pathway_signature_analysis.R
+│   ├── 29_validate_finalize_disease_signature.R
+│   │
+│   ├── 30_lincs_gctx_extraction.R
+│   ├── 30B_lincs_extraction_qc.R
+│   ├── 31_lincs_connectivity_scoring.R
+│   ├── 31B_lincs_connectivity_QC.R
+│   ├── 31C_lincs_robust_compound_prioritization.R
+│   │
+│   ├── 32_candidate_mechanism_target_annotation.R
+│   ├── 32B_ChEMBL_annotation_QC.R
+│   ├── 32C_chembl_evidence_validation.R
+│   │
+│   ├── 33_final_candidate_validation_rankding.R
+│   ├── 33B_final_ranking_qc.R
+│   ├── 34_candidate_biological_interpretation.R
+│   ├── 35_external_candidate_validation.R
+│   └── 36_final_portfolio_summary.R
+│
+├── results/
+│   ├── annotation/
+│   ├── cohort_harmonization/
+│   ├── disease_signature/
+│   ├── drug_repurposing/
+│       ├── ChEMBL mechanism annotation
+│       ├── biological interpretation
+│       ├── external validation
+│       └── final_portfolio
+│   ├── final_disease_signature/
+│   ├── her2_vs_normal/
+│   ├── markers/
+│   ├── pathway_analysis/
+│   ├── patient_level_composition/
+│   ├── pca/
+│   ├── pseudobulk_DE/
+│   ├── qc/
+│   ├── subtype_characterization/
+│   ├── umap/
+│
+└── docs/
+```
+
+Large raw and intermediate datasets are intentionally not included in the GitHub repository when their size exceeds practical version-control limits.
+
+---
