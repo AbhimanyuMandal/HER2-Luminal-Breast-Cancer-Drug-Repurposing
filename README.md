@@ -27,7 +27,7 @@ A reproducible computational biology workflow integrating single-cell RNA sequen
 
 ---
 
-# 🧬 Overview
+# Overview
 
 Breast cancer is a molecularly heterogeneous disease in which distinct transcriptional states and molecular subtypes can exhibit different biological characteristics and therapeutic vulnerabilities.
 
@@ -59,7 +59,7 @@ The final analysis prioritized **66 robust candidate compounds**, including **3 
 
 ---
 
-# 🎯 Project Objectives
+# Project Objectives
 
 The project aims to:
 
@@ -83,7 +83,7 @@ The project aims to:
 
 ---
 
-# ✨ Project Highlights
+# Project Highlights
 
 - ✅ End-to-End scRNA-seq Analysis
 - ✅ Multiple Breast Cancer Cohorts
@@ -105,7 +105,7 @@ The project aims to:
 
 ---
 
-# 🚀 Repository Workflow
+# Repository Workflow
 
 The complete computational workflow follows a progressive narrowing strategy:
 
@@ -114,3 +114,138 @@ The complete computational workflow follows a progressive narrowing strategy:
 </p>
 
 ---
+
+# Single-Cell RNA-seq analysis
+
+The first stage of the project focuses on the characterization of breast cancer single-cell transcriptomic data. The workflow was designed to preserve biological structure while minimizing technical variation b/w samples.
+
+The analysis includes:
+
+- Raw data import
+- Seurat object construction
+- Quality-control assessment
+- Filtering of low-quality cells
+- Normalization
+- Highly variable gene identification
+- Scaling
+- PCA
+- Principal component diagnostics
+- RPCA-based integration
+- UMAP dimensionality reduction
+- Graph-based clustering
+- Cluster marker identification
+- Cell-type annotation
+- Annotation validation
+
+---
+
+# Breast Cancer Subtype Characterization
+
+Following cellular annotation, epithelial populations were characterized to identify breast cancer molecular subtypes.
+
+The analysis evaluates transcriptional patterns associated with:
+
+- HER2-positive disease
+- ER-positive/luminal disease
+- Triple-negative breast cancer
+- Other epithelial states
+
+HER2/luminal characterization was subsequently used as the biological context for the downstream drug-repurposing analysis.
+
+---
+
+# Normal Breast Tissue Comparison
+
+A separate normal breast single-cell dataset was processed using a compatible analytical framework.
+
+The normal cohort was used to provide a non-malignant reference for:
+
+- Cellular composition
+- Cell-type annotation
+- Marker expression
+- UMAp/clustering structure
+- Differential expression
+- Disease-state comparison
+
+This comparison provides additional biological context for identifying disease-associated transcriptional changes.
+
+---
+
+# Patient-Level Cell-Type Composition
+
+Cell-type composition was evaluated at the patient level rather than relying exclusively on pooled cell counts.
+
+This analysis helps distinguish:
+
+- Differences in cellular abundance
+- Patient-to-patient variability
+- Subtype-associated composition changes
+- Potential biological heterogeneity between samples
+
+Patient-level summaries were retained as downstream results for visualization and interpretation.
+
+---
+
+# Pseudobulk Differential Expression
+
+Cell-type-aware pseudobulk differential expression was performed to identify transcriptional differences between breast cancer groups and normal tissue.
+
+Comparisons included:
+
+- HER2-positive vs normal
+- ER-positive vs normal
+- TNBC vs normal
+- HER2-positive vs ER-positive
+- TNBC vs HER2-positive
+- TNBC vs ER-positive
+
+Pseudobulk analysis aggregates single-cell expression within biologically meaningful sample/cell-type units, providing a more appropriate framework for patient-level differential expression than treating individual cells as independent biological replicates.
+
+---
+
+# Disease Signature Contruction
+
+The HER2/luminal disease state was used to construct a disease-associated transcriptional signature.
+
+The finalized extended disease signature contained:
+
+### 454 genes
+
+The signature was divided into:
+
+- Disease-upregulated genes
+- Disease-downregulated genes
+
+A smaller high-confidence core signature was also retained for biological interpretation.
+
+## Core Signature
+
+The final core signature contained:
+
+## 10 genes
+
+The core genes included:
+
+```text
+DIO1
+AC005013.5
+SRPK3
+NR4A1
+ATP6V0A4
+EGR4
+TTC6
+TCN1
+LAMB3
+FKBP1B
+```
+
+The contextual HER2/luminal markers included:
+
+```text
+ERBB2
+GRB7
+FOXA1
+AR
+```
+
+These genes provide biological context for the transcriptional state used in the downstream connectivity analysis.
