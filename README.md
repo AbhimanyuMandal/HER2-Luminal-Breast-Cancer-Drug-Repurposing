@@ -249,3 +249,29 @@ AR
 ```
 
 These genes provide biological context for the transcriptional state used in the downstream connectivity analysis.
+
+---
+
+# LINCS Pertubational Screening
+
+The disease signature was mapped against LINCS perturbational expression data to identify compounds whose induced transcriptional states oppose the disease-associated transcriptional program.
+
+The analysis used:
+
+- **315 disease genes** successfully mapped to LINCS
+- **9,108 perturbational signatures**
+- **6,720 unique compounds**
+- **5 breast cancer cell lines**
+
+The five cell lines represented in the analysis were:
+
+```text
+BT20
+HS578T
+MCF7
+MDAMB231
+SKBR3
+```
+
+These LINCS signatures represented compound perturbations under the selected screening conditions.
+---
