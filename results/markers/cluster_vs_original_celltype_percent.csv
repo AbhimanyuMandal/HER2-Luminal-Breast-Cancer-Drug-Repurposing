@@ -1,0 +1,208 @@
+"Cluster","CellType","Freq"
+"0","B-cells",0
+"1","B-cells",0.00944733112895607
+"2","B-cells",0.169527442254715
+"3","B-cells",0.0565850898288301
+"4","B-cells",0.083166999334664
+"5","B-cells",0.316734119303185
+"6","B-cells",0
+"7","B-cells",0.159671532846715
+"8","B-cells",0.076219512195122
+"9","B-cells",0.0536049316537121
+"10","B-cells",2.69442743417024
+"11","B-cells",0
+"12","B-cells",0
+"13","B-cells",96.7816854678169
+"14","B-cells",0
+"15","B-cells",0
+"16","B-cells",0.78655702538434
+"17","B-cells",0
+"18","B-cells",0
+"19","B-cells",0.557103064066852
+"20","B-cells",0.628930817610063
+"21","B-cells",0
+"22","B-cells",0
+"0","CAFs",0
+"1","CAFs",0
+"2","CAFs",0.0105954651409197
+"3","CAFs",0
+"4","CAFs",0.149700598802395
+"5","CAFs",0.140770719690304
+"6","CAFs",0.0434216239687364
+"7","CAFs",0.0456204379562044
+"8","CAFs",0.0254065040650407
+"9","CAFs",0.0268024658268561
+"10","CAFs",0
+"11","CAFs",98.4615384615385
+"12","CAFs",0
+"13","CAFs",0
+"14","CAFs",91.9931856899489
+"15","CAFs",0.761245674740484
+"16","CAFs",0
+"17","CAFs",13.8015516537362
+"18","CAFs",0
+"19","CAFs",0
+"20","CAFs",0
+"21","CAFs",0.714285714285714
+"22","CAFs",0
+"0","Cancer Epithelial",90.8756137479542
+"1","Cancer Epithelial",0.0188946622579121
+"2","Cancer Epithelial",0.709896164441619
+"3","Cancer Epithelial",0.0848776347432452
+"4","Cancer Epithelial",0.332667997338656
+"5","Cancer Epithelial",0.140770719690304
+"6","Cancer Epithelial",62.0712114633087
+"7","Cancer Epithelial",93.316605839416
+"8","Cancer Epithelial",0.0254065040650407
+"9","Cancer Epithelial",64.433127847762
+"10","Cancer Epithelial",0.122473974280465
+"11","Cancer Epithelial",0.565149136577708
+"12","Cancer Epithelial",0.131319763624425
+"13","Cancer Epithelial",0.06635700066357
+"14","Cancer Epithelial",7.80238500851789
+"15","Cancer Epithelial",0.761245674740484
+"16","Cancer Epithelial",0.107257776188774
+"17","Cancer Epithelial",1.91915067374439
+"18","Cancer Epithelial",2.73224043715847
+"19","Cancer Epithelial",0
+"20","Cancer Epithelial",0
+"21","Cancer Epithelial",0.714285714285714
+"22","Cancer Epithelial",100
+"0","Endothelial",0
+"1","Endothelial",0
+"2","Endothelial",0.0105954651409197
+"3","Endothelial",0
+"4","Endothelial",0.0166333998669328
+"5","Endothelial",0.281541439380609
+"6","Endothelial",0
+"7","Endothelial",0
+"8","Endothelial",99.1615853658537
+"9","Endothelial",0.482444384883409
+"10","Endothelial",0
+"11","Endothelial",0.0313971742543171
+"12","Endothelial",99.2449113591595
+"13","Endothelial",0.06635700066357
+"14","Endothelial",0.0340715502555366
+"15","Endothelial",0.0346020761245675
+"16","Endothelial",0.0357525920629246
+"17","Endothelial",0.612494895875868
+"18","Endothelial",0
+"19","Endothelial",0
+"20","Endothelial",0
+"21","Endothelial",98.5714285714286
+"22","Endothelial",0
+"0","Myeloid",0
+"1","Myeloid",0.0188946622579121
+"2","Myeloid",0.0423818605636787
+"3","Myeloid",0.0141462724572075
+"4","Myeloid",0.199600798403194
+"5","Myeloid",98.7506598627485
+"6","Myeloid",0
+"7","Myeloid",0.0684306569343066
+"8","Myeloid",0.355691056910569
+"9","Myeloid",0.723666577325114
+"10","Myeloid",0.091855480710349
+"11","Myeloid",0.0627943485086342
+"12","Myeloid",0.164149704530532
+"13","Myeloid",0.564034505640345
+"14","Myeloid",0
+"15","Myeloid",0
+"16","Myeloid",98.8201644619235
+"17","Myeloid",0
+"18","Myeloid",0
+"19","Myeloid",99.1643454038997
+"20","Myeloid",99.3710691823899
+"21","Myeloid",0
+"22","Myeloid",0
+"0","Normal Epithelial",9.09983633387889
+"1","Normal Epithelial",0
+"2","Normal Epithelial",0
+"3","Normal Epithelial",0
+"4","Normal Epithelial",0
+"5","Normal Epithelial",0
+"6","Normal Epithelial",37.7985236647851
+"7","Normal Epithelial",1.39142335766423
+"8","Normal Epithelial",0
+"9","Normal Epithelial",0
+"10","Normal Epithelial",0.0306184935701164
+"11","Normal Epithelial",0
+"12","Normal Epithelial",0
+"13","Normal Epithelial",0
+"14","Normal Epithelial",0
+"15","Normal Epithelial",0
+"16","Normal Epithelial",0
+"17","Normal Epithelial",0
+"18","Normal Epithelial",96.448087431694
+"19","Normal Epithelial",0
+"20","Normal Epithelial",0
+"21","Normal Epithelial",0
+"22","Normal Epithelial",0
+"0","Plasmablasts",0.00818330605564648
+"1","Plasmablasts",0.0283419933868682
+"2","Plasmablasts",0.127145581691036
+"3","Plasmablasts",0.0282925449144151
+"4","Plasmablasts",0.0499001996007984
+"5","Plasmablasts",0.0175963399612881
+"6","Plasmablasts",0
+"7","Plasmablasts",0.296532846715328
+"8","Plasmablasts",0.076219512195122
+"9","Plasmablasts",0.804073974805682
+"10","Plasmablasts",96.6625842008573
+"11","Plasmablasts",0.0313971742543171
+"12","Plasmablasts",0
+"13","Plasmablasts",0.39814200398142
+"14","Plasmablasts",0
+"15","Plasmablasts",0.0346020761245675
+"16","Plasmablasts",0.0357525920629246
+"17","Plasmablasts",0
+"18","Plasmablasts",0.273224043715847
+"19","Plasmablasts",0
+"20","Plasmablasts",0
+"21","Plasmablasts",0
+"22","Plasmablasts",0
+"0","PVL",0.00818330605564648
+"1","PVL",0
+"2","PVL",0
+"3","PVL",0
+"4","PVL",0.0332667997338656
+"5","PVL",0.0703853598451522
+"6","PVL",0
+"7","PVL",0.0684306569343066
+"8","PVL",0
+"9","PVL",0
+"10","PVL",0
+"11","PVL",0.659340659340659
+"12","PVL",0.459619172685489
+"13","PVL",0
+"14","PVL",0.170357751277683
+"15","PVL",98.3044982698962
+"16","PVL",0
+"17","PVL",83.6668027766435
+"18","PVL",0.182149362477231
+"19","PVL",0
+"20","PVL",0
+"21","PVL",0
+"22","PVL",0
+"0","T-cells",0.00818330605564648
+"1","T-cells",99.9244213509683
+"2","T-cells",98.9298580207671
+"3","T-cells",99.8160984580563
+"4","T-cells",99.1350632069195
+"5","T-cells",0.281541439380609
+"6","T-cells",0.0868432479374729
+"7","T-cells",4.65328467153285
+"8","T-cells",0.279471544715447
+"9","T-cells",33.4762798177432
+"10","T-cells",0.398040416411513
+"11","T-cells",0.188383045525903
+"12","T-cells",0
+"13","T-cells",2.12342402123424
+"14","T-cells",0
+"15","T-cells",0.103806228373702
+"16","T-cells",0.214515552377547
+"17","T-cells",0
+"18","T-cells",0.364298724954463
+"19","T-cells",0.278551532033426
+"20","T-cells",0
+"21","T-cells",0
+"22","T-cells",0
