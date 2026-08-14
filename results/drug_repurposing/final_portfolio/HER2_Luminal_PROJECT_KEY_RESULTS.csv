@@ -1,0 +1,15 @@
+metric,value,context
+Disease signature genes,454,Extended disease signature
+Core signature genes,10,High-confidence core subset
+LINCS genes mapped,315,Disease genes successfully mapped to LINCS
+LINCS signatures screened,9108,24 h / 10 µM compound signatures
+LINCS compounds represented,6720,Unique LINCS perturbations represented
+Breast cancer cell lines,5,"MCF7, SKBR3, BT20, MDAMB231, HS578T"
+Compounds tested in all 5 cell lines,167,Compounds with signatures in every selected cell line
+Robust LINCS candidates,66,Cross-cell-line robust reversal candidates
+Mechanism-supported candidates,23,Candidates with mechanism evidence
+Final Priority A candidates,3,Highest-priority computational candidates
+Final Priority B candidates,8,Strong secondary candidates
+Final Priority C candidates,29,Additional candidates
+Exploratory candidates,26,Lower-confidence/exploratory candidates
+Top candidates externally screened,20,Independent literature screening
