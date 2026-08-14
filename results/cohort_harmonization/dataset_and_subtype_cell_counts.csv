@@ -1,0 +1,5 @@
+"dataset","clinical_group","cells","percentage"
+"Breast_Cancer","ER_Positive",35226,37.7981651376147
+"Breast_Cancer","HER2_Positive",18500,19.850850367509
+"Breast_Cancer","TNBC",39469,42.3509844948763
+"Normal_Breast","Normal",24552,100
