@@ -787,3 +787,311 @@ Identify transcriptionally distinct cellular populations.
 
 Clustered and dimensionally reduced single-cell dataset.
 
+## 5. UMAP and Clustering
+
+### Objective
+
+Assign biological identities to transcriptionally defined clusters.
+
+### Major steps
+
+- Cluster marker identification
+- Canonical marker evaluation
+- Annotation
+- Independent validation
+- Final annotation
+
+### Output
+
+Annotated breast cancer single-cell dataset.
+
+## 6. Subtype Characterization
+
+### Objective
+
+Characterize molecular subtype-associated epithelial populations.
+
+The analysis focuses on transcriptional features associated with:
+
+- HER2-positive breast cancer
+- ER-positive/luminal breast cancer
+- TNBC
+
+The resulting subtype characterization provides the biological context for disease-signature construction.
+
+## 7. Normal Breast Comparison
+
+### Objective
+
+Establish a normal-tissue reference for interpreting disease-associated transcriptional changes.
+
+A separate normal breast scRNA-seq cohort was processed and annotated using a compatible workflow.
+
+## 8. Pseudobulk Differential Expression
+
+### Objective
+
+Identify patient-level transcriptional differences between disease subtypes and normal tissue.
+
+The analysis was performed separately within relevant cell-type populations.
+
+### Output
+
+Differential expression tables and volcano plots.
+
+## 9. Disease-Signature Construction
+
+### Objective
+
+Create a robust transcriptional representation of the HER2/luminal disease state.
+
+### Key results
+
+```text
+454 extended disease-signature genes
+10 core signature genes
+214 disease-upregulated genes
+240 disease-downregulated genes
+```
+This signature became the input for LINCS connectivity screening.
+
+## 10. LINCS Connectivity Analysis
+
+### Objective
+
+Identify compound-induced transcriptional profiles that oppose the disease-associated expression program.
+
+### Key results
+
+```text
+315 mapped disease genes
+9,108 LINCS signatures
+6,720 unique compounds
+5 breast cancer cell lines
+```
+
+## 11. Robust Compound Prioritization
+
+### Objective
+
+Identify candidates whose reversal signal is reproducible across breast cancer cell lines.
+
+### Key results
+
+```text
+167 compounds represented in all 5 cell lines
+66 robust reversal candidates
+```
+Candidates were ranked according to connectivity strength and reproducibility.
+
+## 12. Mechanism Annotation
+
+### Objective
+
+Provide pharmacological context for computationally prioritized compounds.
+
+ChEMBL was used to retrieve:
+
+- Compound identifiers
+- Preferred names
+- Mechanism-of-action records
+- Target identifiers
+- Action types
+- Development-phase information where available
+
+## 13. Final Candidate Ranking
+
+### Objective
+
+Integrate computational and supporting evidence into a final candidate prioritization framework.
+
+The ranking incorporates:
+
+- Connectivity strength
+- Reproducibility
+- Positive-cell-line fraction
+- Compound identity confidence
+- Mechanism evidence
+- External evidence
+
+### Final classification
+
+```text
+Priority A: 3 candidates
+Priority B: 8 candidates
+Priority C: 29 candidates
+Exploratory: 26 candidates
+```
+
+## 14. External Validation
+
+### Objective
+
+Assess whether high-ranked computational candidates have supporting evidence in external literature.
+
+The top 20 candidates were screened for:
+
+- Breast cancer evidence
+- HER2-related evidence
+- General oncology evidence
+
+This step provides contextual evidence for interpreting computational predictions.
+
+---
+
+# Key Biological Findings
+
+The disease signature showed strong transcriptional differences involving genes associated with multiple biological processes.
+
+The pathway analysis highlighted altered programs involving:
+
+- Apoptotic processes
+- Wound response
+- Wound healing
+- Chemotaxis
+- Epidermis development
+- Intrinsic apoptotic signaling
+- Leukocyte migration
+- Cell adhesion
+- Lymphocyte activation
+
+The HER2/luminal context was supported by elevated expression of:
+
+```text
+ERBB2
+GRB7
+FOXA1
+AR
+```
+
+These findings provided the biological context for downstream perturbational screening.
+
+---
+
+# Limitations
+
+This project is a computational drug-repurposing prioritization framework and has several important limitations.
+
+## 1. Computational evidence is not therapeutic evidence
+
+A strong LINCS connectivity score does not demonstrate clinical efficacy.
+
+## 2. LINCS signatures are context-dependent
+
+Drug-induced transcriptional responses can vary with:
+
+- Cell line
+- Dose
+- Exposure time
+- Experimental conditions
+
+## 3. Compound identity matching can be imperfect
+
+Some LINCS perturbations required identity review during ChEMBL annotation.
+
+## 4. Mechanism databases are incomplete
+
+Absence of a ChEMBL mechanism record does not mean that a compound has no biological mechanism.
+
+## 5. External literature validation is not experimental validation
+
+Literature evidence provides supporting context but does not establish activity in the specific disease context analyzed here.
+
+## 6. Experimental validation is required
+
+The final candidates should be considered hypotheses for downstream experimental testing rather than therapeutic recommendations.
+
+---
+
+# Reproducibility
+
+The workflow was designed around reproducible computational analysis principles.
+
+Features include:
+
+- Numbered analysis scripts
+- Modular pipeline stages
+- Explicit input/output directories
+- Saved intermediate analytical results
+- QC checkpoints
+- Separate validation stages
+- Version-controlled source code
+- Structured result directories
+- Final ranking and evidence tables
+
+Each major stage can be inspected independently through the corresponding numbered script.
+
+---
+
+# Data Sources
+
+The project integrates publicly available biological resources including:
+
+## Single-cell RNA-seq
+- GEO datasets used for breast cancer and normal breast tissue analysis (GSE176078) and (GSE113196).
+
+## LINCS
+
+- The Library of Integrated Network-Based Cellular Signatures was used for perturbational transcriptional profiling and connectivity analysis.
+
+## ChEMBL
+
+- ChEMBL was used for compound identity and mechanism-of-action annotation.
+
+## External Literature
+
+- Literature screening was used to provide supporting evidence for high-ranked candidates.
+
+Please consult the original dataset and database documentation for appropriate attribution and citation.
+
+---
+
+# References
+
+Key resources used in the project include:
+
+- Seurat: single-cell RNA-seq analysis
+- GEO: Gene Expression Omnibus
+- LINCS: Library of Integrated Network-Based Cellular Signatures
+- ChEMBL: bioactive molecule and drug information
+- R: statistical computing and visualization
+
+Dataset-specific and software-specific citations should be added when the corresponding resources are used in formal scientific work.
+
+---
+
+# 📬 Connect With Me
+
+<p align="center">
+
+<a href="https://abhimanyumandal.github.io/Personal-Portfolio/">
+🌐 Portfolio
+</a>
+&nbsp;&nbsp;•&nbsp;&nbsp;
+
+<a href="https://www.linkedin.com/in/abhimanyu-mandal/">
+💼 LinkedIn
+</a>
+&nbsp;&nbsp;•&nbsp;&nbsp;
+
+<a href="mailto:abhimanyumandal0810@gmail.com">
+📧 Email
+</a>
+
+</p>
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+See the [LICENSE](LICENSE) file for details.
+
+---
+
+<p align="center">
+
+### ⭐ If you found this project interesting, consider giving it a star!
+
+</p>
