@@ -532,3 +532,44 @@ HER2_Luminal_TOP30_FINAL_CANDIDATES.csv
 ```
 
 ---
+
+# Technology Stack
+
+| Category | Technology | Purpose |
+|-----------|------------|-----------|
+| Programming | R | Computational analysis|
+| scRNA-seq | Seurat | Single-cell processing and analysis |
+| Data manipulation | dplyr | Data processing |
+| Visualization | ggplot2 | Scientific visualization |
+| Statistics | R statistical ecosystem | Differential expression and QC |
+| Integration | RPCA | Dataset integration |
+| Perturbational screening | LINCS | Drug-induced transcriptional signatures |
+| Compound annotation | ChEMBL | Compound and mechanism annotation |
+| Literature validation | External literature | Candidate evidence assessment |
+| Version control | Git/GitHub | Reproducible project management |
+
+---
+
+# Installation
+
+## 1. Clone the repository
+```bash
+git clone https://github.com/AbhimanyuMandal/HER2-Luminal-Breast-Cancer-Drug-Repurposing.git
+cd HER2-Luminal-Breast-Cancer-Drug-Repurposing
+```
+## 2. Install R
+```text
+https://cran.r-project.org/
+```
+## 3. Install Required Packages
+```R
+install.packages(c(
+  "Seurat",
+  "dplyr",
+  "ggplot2",
+  "readr",
+  "tidyr",
+  "stringr",
+  "httr2"
+))
+```
