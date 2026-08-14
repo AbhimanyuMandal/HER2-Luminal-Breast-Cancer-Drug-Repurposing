@@ -4,7 +4,7 @@
 
 An end-to-end computational biology workflow integrating **single-cell RNA-seq analysis, subtype characterization, pseudobulk differential expression, disease-signature construction, pathway analysis, LINCS perturbational screening, cross-cell-line validation, ChEMBL mechanism annotation, and external literature validation** to prioritize potential drug-repurposing candidates for HER2/luminal breast cancer.
 
-**Important:** This project generates computational drug-repurposing hypotheses. The identified compounds are not experimentally or clinically validated therapeutic recommendations.**
+**Important:** This project generates computational drug-repurposing hypotheses. The identified compounds are not experimentally or clinically validated therapeutic recommendations.
 
 ---
 
