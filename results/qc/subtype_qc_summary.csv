@@ -1,0 +1,4 @@
+subtype,median_nFeature_RNA,median_nCount_RNA,median_percent_mito,cell_count
+ER+,1532,4241,6.57395701643489,38241
+HER2+,996,2642,4.21174652241113,19311
+TNBC,1332,3542,4.61997123037506,42512
