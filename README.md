@@ -717,3 +717,73 @@ HER2-Luminal-Breast-Cancer-Drug-Repurposing/
 Large raw and intermediate datasets are intentionally not included in the GitHub repository when their size exceeds practical version-control limits.
 
 ---
+
+# Pipeline Components
+
+## 1. Single-Cell Quality Control
+
+### Objective
+
+Ensure that low-quality cells and technical artifacts are removed before downstream analysis.
+
+### Major steps
+
+- Cell-level QC
+- Gene detection assessment
+- Filtering
+- QC visualization
+- Dataset diagnostics
+
+### Output
+
+Quality-controlled single-cell dataset.
+
+## 2. Single-Cell Quality Control
+
+### Objective
+
+Prepare the single-cell expression matrix for dimensionality reduction and clustering.
+
+### Major steps
+
+- Normalization
+- Highly Variable Genes (HVGs) identification
+- Scaling
+- PCA
+- Principal component diagnostics
+
+### Output
+
+Normalized expression representation suitable for downstream integration.
+
+## 3. Dataset Integration
+
+### Objective
+
+Reduce technical variation between samples while retaining biological variation.
+
+### Major approach
+
+**Reciprocal PCA (RPCA)** integration using Seurat.
+
+### Output
+
+Integrated single-cell representation.
+
+## 4. UMAP and Clustering
+
+### Objective
+
+Identify transcriptionally distinct cellular populations.
+
+### Major steps
+
+- Nearest-neighbor graph construction
+- Clustering
+- UMAP
+- Cluster visualization
+
+### Output
+
+Clustered and dimensionally reduced single-cell dataset.
+
