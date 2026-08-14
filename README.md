@@ -222,7 +222,7 @@ A smaller high-confidence core signature was also retained for biological interp
 
 The final core signature contained:
 
-## 10 genes
+### 10 genes
 
 The core genes included:
 
