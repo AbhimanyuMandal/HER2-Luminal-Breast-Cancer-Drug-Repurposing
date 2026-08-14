@@ -107,69 +107,10 @@ The project aims to:
 
 # 🚀 Repository Workflow
 
-<p align="center">
-  <img src="assets/workflow.png" width="90%" alt="HER2 Luminal Breast Cancer Drug Repurposing Workflow">
-</p>
-
 The complete computational workflow follows a progressive narrowing strategy:
 
-```text
-Raw scRNA-seq Data
-        │
-        ▼
-Quality Control
-        │
-        ▼
-Normalization + HVG Selection
-        │
-        ▼
-PCA / RPCA Integration
-        │
-        ▼
-UMAP + Clustering
-        │
-        ▼
-Cell-Type Annotation
-        │
-        ▼
-Breast Cancer Subtype Characterization
-        │
-        ▼
-Normal Breast Comparison
-        │
-        ▼
-Patient-Level Cell-Type Composition
-        │
-        ▼
-Pseudobulk Differential Expression
-        │
-        ▼
-HER2/Luminal Disease Signature
-        │
-        ▼
-LINCS Gene Mapping
-        │
-        ▼
-9,108 LINCS Perturbational Signatures
-        │
-        ▼
-Connectivity Scoring
-        │
-        ▼
-Cross-Cell-Line Robustness
-        │
-        ▼
-66 Robust Candidates
-        │
-        ▼
-ChEMBL Compound / Mechanism Annotation
-        │
-        ▼
-Final Candidate Ranking
-        │
-        ▼
-External Literature Validation
-        │
-        ▼
-Final Portfolio Candidates
-```
+<p align="center">
+  <img src="assets/her2_workflow.png" width="90%" alt="HER2 Luminal Breast Cancer Drug Repurposing Workflow">
+</p>
+
+---
