@@ -1,0 +1,11 @@
+"metric","value"
+"Genes_tested",13061
+"FDR_lt_0.05",461
+"FDR_lt_0.05_abs_logFC_ge_1",461
+"Broad_UP",221
+"Broad_DOWN",240
+"Broad_total",461
+"Immune_genes_flagged",7
+"Strict_UP",214
+"Strict_DOWN",240
+"Strict_total",454
