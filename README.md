@@ -456,3 +456,79 @@ These candidates were prioritized through the integration of transcriptional rev
 
 ---
 
+# Results & Visualization
+
+The repository contains selected analytical outputs and figures generated throughout the workflow.
+
+## PCA
+
+PCA results provide an overview of major sources of transcriptional variation before and after integration.
+
+Relevant outputs are available under:
+
+```text
+results/pca/
+```
+---
+## UMAP & Clustering
+
+UMAP visualizations show the major cellular populations identified in the single-cell datasets.
+
+Relevant outputs are available under:
+
+```text
+results/umap/
+```
+---
+## Subtype Characterization
+
+Subtype-associated results and visualizations are available under:
+
+```text
+results/subtype_characterization/
+```
+---
+
+## Patient-Level Composition
+
+Patient-level cellular composition analyses are available under:
+
+```text
+results/patient_level_composition/
+```
+---
+## Pathway Analysis
+
+Pathway-level interpretation of disease-associated transcriptional programs is available under:
+
+```text
+results/pathway_analysis/
+```
+---
+## Disease Signature
+
+Disease-signature validation and finalized signature outputs are available under:
+
+```text
+results/disease_signature/
+```
+---
+## LINCS Drug Repurposing
+
+LINCS connectivity and candidate prioritization outputs are available under:
+
+```text
+results/drug_repurposing/
+```
+Important outputs include:
+
+```text
+HER2_Luminal_FINAL_CANDIDATE_RANKING_QC.csv
+HER2_Luminal_PRIORITY_A_CANDIDATES_QC.csv
+HER2_Luminal_HIGH_CONFIDENCE_IDENTITIES.csv
+HER2_Luminal_MECHANISM_SUPPORTED_CANDIDATES.csv
+HER2_Luminal_STRONG_LINCS_NO_MECHANISM_QC.csv
+HER2_Luminal_TOP30_FINAL_CANDIDATES.csv
+```
+
+---
