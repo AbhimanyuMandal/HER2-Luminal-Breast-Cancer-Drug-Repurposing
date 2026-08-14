@@ -1,0 +1,12 @@
+"celltype","cells","dataset","percentage"
+"Basal_Epithelial",5704,"HER2_Tumor",6.12050002682547
+"Cycling",4124,"HER2_Tumor",4.42513010354633
+"Fibroblast_Stromal",3185,"HER2_Tumor",3.4175653200279
+"Immune",19740,"HER2_Tumor",21.1813938516015
+"Luminal_Epithelial",16604,"HER2_Tumor",17.816406459574
+"Other_Unresolved",43838,"HER2_Tumor",47.0390042384248
+"Basal_Epithelial",4174,"Normal_Breast",17.000651678071
+"Fibroblast_Stromal",44,"Normal_Breast",0.17921146953405
+"Luminal_Epithelial",13351,"Normal_Breast",54.3784620397524
+"Myoepithelial",6981,"Normal_Breast",28.4335288367546
+"Other_Unresolved",2,"Normal_Breast",0.00814597588791137
