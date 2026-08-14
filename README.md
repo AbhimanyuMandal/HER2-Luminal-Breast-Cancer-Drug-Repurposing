@@ -391,6 +391,68 @@ External evidence was incorporated into the final portfolio-oriented interpretat
 
 ---
 
+# Final Results
 
+The complete computational pipeline produced the following key results:
 
+| Metric | Result |
+|-----------|------------|
+| Disease signature genes | 454 |
+| Core signature genes | 10 |
+| LINCS genes mapped | 315 | 
+| LINCS signatures screened | 9,108 |
+| LINCS compounds represented | 6,720 |
+| Breast cancer cell lines | 5 |
+| Compounds tested in all 5 cell lines | 167 |
+| Robust LINCS candidates | 66 |
+| Mechanism-supported candidates | 23 | 
+| Priority A candidates | 3 |
+| Priority B candidates | 8 |
+| Priority C candidates | 29 |
+| Exploratory candidates | 26 |
+| Candidates externally screened | 20 |
+
+---
+
+# Top Portfolio Candidates
+
+The final ranking identified the following candidates among the highest-priority computational results:
+
+| Rank | Candidate | Priority | Evidence Level | 
+|-----------|------------|-----------|------------|
+| 1 | BMS-777607 | Priority A | High |
+| 2 | Motesanib | Priority A | High |
+| 3 | GSK-3-inhibitor-IX | Priority C | Secondary |
+| 4 | Pazopanib | Priority B | Moderate |
+| 5 | GW-5074 | Priority C | Secondary |
+| 6 | OSI-930 | Priority A | High |
+| 7 | PHA-665752 | Priority B | Moderate |
+| 8 | PLX-4720 | Priority B | Moderate |
+| 9 | GW-843682X | Priority C | Secondary |
+| 10 | Sorafenib | Priority B | Moderate |
+
+## Priority A Candidates
+
+The final Priority A group includes:
+1. BMS-777607
+2. Motesanib
+3. OSI-930
+
+These compounds combined strong computational reversal characteristics with supporting annotation/evidence within the project's ranking framework.
+
+**Important:** Priority A represents the highest computational priority within this project. It does not mean that these compounds are clinically recommended treatments.
+
+---
+
+# Connectivity Characteristics of Priority A candidates
+
+| Candidate | Positive Cell Lines | Median Connectivity |
+|-----------|------------|-----------|
+| BMS-777607 | 4/5 | 0.314 |
+| Motesanib | 4/5 | 0.304 |
+| OSI-930 | 3/5 | 0.364 |
+
+These candidates were prioritized through the integration of transcriptional reversal, reproducibility, compound annotation, and mechanism/evidence information.
+
+---
 
