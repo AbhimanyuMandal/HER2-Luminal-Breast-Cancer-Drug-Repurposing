@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" alt="HER2 Luminal Breast Cancer Drug Repurposing Banner" width="100%">
+  <img src="assets/drug_repurposing_banner.png" alt="HER2 Luminal Breast Cancer Drug Repurposing Banner" width="100%">
 </p>
 
 <h1 align="center">
