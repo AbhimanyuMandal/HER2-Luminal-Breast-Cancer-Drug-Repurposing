@@ -8,9 +8,9 @@
 
 <p align="center">
 
-Single-cell transcriptomics-driven disease signature contruction and LINCS-based computational drug repurposing
+Single-cell transcriptomics-driven disease signature construction and LINCS-based computational drug repurposing
 
-A reproducible computational biology workflow integrating single-cell RNA sequencing, subtype characterization, differential expression, disease-signature construction, LINCS perturbational screening, cross-cell-line validation, ChEMBL mechanism annotation, and external literature validation to prioritize candidate compounds for HER2/luminal breast cancer.
+A reproducible computational biology workflow integrating single-cell RNA sequencing, subtype characterization, differential expression, disease-signature construction, LINCS perturbational screening, cross-cell-line validation, ChEMBL mechanism annotation, and external literature validation to prioritize computational drug-repurposing candidates for the HER2/luminal breast cancer transcriptional state.
 
 </p>
 
@@ -118,7 +118,7 @@ The complete computational workflow follows a progressive narrowing strategy:
 
 # Single-Cell RNA-seq analysis
 
-The first stage of the project focuses on the characterization of breast cancer single-cell transcriptomic data. The workflow was designed to preserve biological structure while minimizing technical variation b/w samples.
+The first stage of the project focuses on the characterization of breast cancer single-cell transcriptomic data. The workflow was designed to preserve biological structure while minimizing technical variation between samples.
 
 The analysis includes:
 
@@ -635,8 +635,9 @@ HER2-Luminal-Breast-Cancer-Drug-Repurposing/
 ├── .gitignore
 │
 ├── assets/
-│   ├── banner.png
-│   └── workflow.png
+│   ├── drug_repurposing_banner.png
+│   ├── connectivity_scoring.png
+│   └── her2_workflow.png
 │
 ├── data/
 │   ├── raw/
@@ -651,7 +652,7 @@ HER2-Luminal-Breast-Cancer-Drug-Repurposing/
 │   ├── 06_PCA_patient_subtype_diagnostics.R
 │   ├── 07_seurat_RPCA_integration.R
 │   ├── 08_umap_clustering.R
-│   ├── 09_cluster_markers_annotation
+│   ├── 09_cluster_markers_annotation.R
 │   ├── 10_validate_annotations.R
 │   ├── 11_final_annotation.R
 │   ├── 12_subtype_characterization.R
@@ -686,7 +687,7 @@ HER2-Luminal-Breast-Cancer-Drug-Repurposing/
 │   ├── 32B_ChEMBL_annotation_QC.R
 │   ├── 32C_chembl_evidence_validation.R
 │   │
-│   ├── 33_final_candidate_validation_rankding.R
+│   ├── 33_final_candidate_validation_ranking.R
 │   ├── 33B_final_ranking_qc.R
 │   ├── 34_candidate_biological_interpretation.R
 │   ├── 35_external_candidate_validation.R
