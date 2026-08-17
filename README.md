@@ -1083,7 +1083,7 @@ See the [LICENSE](LICENSE) file for details.
 
 ---
 
-# 📬 Connect With Me
+# Connect With Me
 
 **Abhimanyu Mandal**
 
