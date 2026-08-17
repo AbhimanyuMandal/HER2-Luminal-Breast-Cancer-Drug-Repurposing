@@ -8,7 +8,7 @@
 
 <p align="center">
 
-Single-cell RNA-seq-driven disease characterization and LINCS-based computational drug repurposing
+Single-cell transcriptomics-driven disease signature contruction and LINCS-based computational drug repurposing
 
 A reproducible computational biology workflow integrating single-cell RNA sequencing, subtype characterization, differential expression, disease-signature construction, LINCS perturbational screening, cross-cell-line validation, ChEMBL mechanism annotation, and external literature validation to prioritize candidate compounds for HER2/luminal breast cancer.
 
@@ -53,7 +53,7 @@ The pipeline integrates:
 - External literature validation
 - Final portfolio-oriented candidate ranking
 
-The final analysis prioritized **66 robust candidate compounds**, including **3 Priority A candidates**, after integrating transcriptional reversal, cross-cell-line reproducibility, compound identity, mechanism evidence, and external validation.
+The final analysis prioritized **66 robust computational drug-repurposing candidates**, including **3 Priority A candidates**, after integrating transcriptional reversal, cross-cell-line reproducibility, compound identity, mechanism evidence, and external validation.
 
 > **Important:** This project represents computational drug-repurposing prioritization. The results do not establish clinical efficacy, safety, or therapeutic suitability.
 
@@ -74,7 +74,8 @@ The project aims to:
 - Map disease genes to LINCS perturbational data.
 - Screen thousands of compound-induced transcriptional signatures.
 - Quantify transcriptional connectivity between disease and drug perturbations.
-- Identify compounds capable of reversing the disease-associated transcriptional state.
+- Identify compounds whose perturbational signatures oppose the disease-associated transcriptional state.
+- Negative connectivity was interpreted as potential transcriptional reversal rather than demonstrated therapeutic efficacy.
 - Evaluate candidate reproducibility across multiple breast cancer cell lines.
 - Annotate candidate compounds using ChEMBL.
 - Integrate mechanism-of-action evidence.
@@ -308,7 +309,7 @@ These compounds were evaluated based on:
 - Reproducibility
 - Positive connectivity fraction
 
-**66 robust candidate compounds**
+**66 robust drug-repurposing candidates**
 
 Candidates were divided into three tiers:
 
@@ -349,7 +350,7 @@ ChEMBL annotation was used as supporting evidence rather than as proof of therap
 
 ---
 
-# Mechansim Interpretation
+# Mechanism Interpretation
 
 Mechanism-supported candidates were grouped into broad mechanism categories.
 
@@ -696,10 +697,10 @@ HER2-Luminal-Breast-Cancer-Drug-Repurposing/
 │   ├── cohort_harmonization/
 │   ├── disease_signature/
 │   ├── drug_repurposing/
-│       ├── ChEMBL mechanism annotation
-│       ├── biological interpretation
-│       ├── external validation
-│       └── final_portfolio
+│       ├── ChEMBL mechanism annotation/
+│       ├── biological interpretation/
+│       ├── external validation/
+│       └── final_portfolio/
 │   ├── final_disease_signature/
 │   ├── her2_vs_normal/
 │   ├── markers/
@@ -738,7 +739,7 @@ Ensure that low-quality cells and technical artifacts are removed before downstr
 
 Quality-controlled single-cell dataset.
 
-## 2. Single-Cell Quality Control
+## 2. Normalization & Feature selection
 
 ### Objective
 
@@ -787,7 +788,7 @@ Identify transcriptionally distinct cellular populations.
 
 Clustered and dimensionally reduced single-cell dataset.
 
-## 5. UMAP and Clustering
+## 5. Cell-Type Annotation
 
 ### Objective
 
@@ -1028,7 +1029,9 @@ Each major stage can be inspected independently through the corresponding number
 The project integrates publicly available biological resources including:
 
 ## Single-cell RNA-seq
-- GEO datasets used for breast cancer and normal breast tissue analysis (GSE176078) and (GSE113196).
+GEO datasets used:
+- GSE176078 - breast cancer scRNA-seq cohort
+- GSE113196 - normal breast tissue scRNA-seq cohort
 
 ## LINCS
 
