@@ -1060,29 +1060,22 @@ Dataset-specific and software-specific citations should be added when the corres
 
 ---
 
-# 📬 Connect With Me
+# Acknowledgements
 
-<p align="center">
+This project builds upon publicly available datasets, computational resources, and open-source scientific software.
 
-<a href="https://abhimanyumandal.github.io/Personal-Portfolio/">
-🌐 Portfolio
-</a>
-&nbsp;&nbsp;•&nbsp;&nbsp;
+Special thanks to:
 
-<a href="https://www.linkedin.com/in/abhimanyu-mandal/">
-💼 LinkedIn
-</a>
-&nbsp;&nbsp;•&nbsp;&nbsp;
-
-<a href="mailto:abhimanyumandal0810@gmail.com">
-📧 Email
-</a>
-
-</p>
+- GEO contributors
+- LINCS / Connectivity Map community
+- ChEMBL / EMBL-EBI
+- Seurat development team
+- R and Bioconductor communities
+- Open-source computational biology community
 
 ---
 
-# 📄 License
+# License
 
 This project is licensed under the **MIT License**.
 
@@ -1090,8 +1083,18 @@ See the [LICENSE](LICENSE) file for details.
 
 ---
 
-<p align="center">
+# 📬 Connect With Me
 
-### ⭐ If you found this project interesting, consider giving it a star!
+**Abhimanyu Mandal**
 
-</p>
+- LinkedIn: https://www.linkedin.com/in/abhimanyu-mandal/
+- Portfolio: https://abhimanyumandal.github.io/Personal-Portfolio/
+- Email: abhimanyumandal0810@gmail.com
+
+---
+
+<div align="center">
+
+### ⭐ If you found this repository useful, please consider giving it a Star!
+
+</div>
